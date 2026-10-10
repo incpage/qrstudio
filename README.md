@@ -17,3 +17,7 @@ React + Vite + `qrcode`. QR codes are generated locally in the browser; no API, 
 ## Nginx (SPA)
     server { listen 80; root /var/www/qrstudio/dist; location / { try_files $uri /index.html; } }
 Enable HTTPS with certbot (`certbot --nginx -d your.domain`).
+
+## Ads
+- AdSense: edit `src/config/adsConfig.js` (`ADS_CLIENT_ID`, then `enabled` and `slotId` per placement: header, belowGenerator, footer). Placeholders render nothing.
+- Custom ads: edit `src/config/customAdsConfig.js`. Rebuild and redeploy after changes.

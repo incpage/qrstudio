@@ -18,3 +18,5 @@ button.primary{background:var(--navy);color:#fff;border-color:var(--navy)}button
 fieldset{border:1px solid var(--border);border-radius:8px;margin-top:14px}footer{text-align:center;padding:20px;color:var(--muted);font-size:.9rem}
 @media print{header,footer,.col,.noprint{display:none!important}.grid{display:block}.card{border:0;box-shadow:none}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+
+.ad{padding:12px;margin:12px auto;display:flex;flex-direction:column;gap:4px;border:1px dashed var(--border);border-radius:12px;font-size:.9rem;max-width:1068px}.ad small{color:var(--muted)}.ad img{max-width:100%}
